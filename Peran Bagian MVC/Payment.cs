@@ -51,9 +51,10 @@ namespace Peran_Bagian_MVC
             this.balance = this.balance - total;
             this.paymentCallBack.onPriceUpdated(subTotal, total, balance);
         }
-        interface OnPaymentChangedListener
-        {
-            void onPriceUpdated(double subtTotal, double granTotal, double balance);
-        }
+        
+    }
+    interface OnPaymentChangedListener
+    {
+        void onPriceUpdated(double subtTotal, double granTotal, double balance);
     }
 }

@@ -45,10 +45,11 @@ namespace Peran_Bagian_MVC
             }
             payment.updateTotal(subTotal);
         }
-        interface OnKeranjangBelanjaChangedListener
-        {
-            void removeItemSucceed();
-            void addItemSucceed();
-        }
+        
+    }
+    interface OnKeranjangBelanjaChangedListener
+    {
+        void removeItemSucceed();
+        void addItemSucceed();
     }
 }

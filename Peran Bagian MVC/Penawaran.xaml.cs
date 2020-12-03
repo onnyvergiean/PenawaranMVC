@@ -70,6 +70,5 @@ namespace Peran_Bagian_MVC
         void onPenawaranSelected(Item item);
     }
 
-
 }
 

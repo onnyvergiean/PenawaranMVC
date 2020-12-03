@@ -16,7 +16,7 @@ namespace Peran_Bagian_MVC
             this.paymentCallBack = paymentCallback;
         }
 
-        public void setBlaance (double balance)
+        public void setBalance (double balance)
         {
             this.balance = balance;
         }
@@ -26,9 +26,9 @@ namespace Peran_Bagian_MVC
             return this.balance;
         }
 
-        public void setDeliveryfee(double deliveryfee)
+        public void setDeliveryFee(double deliveryFee)
         {
-            this.deliveryfee = deliveryfee;
+            this.deliveryFee = deliveryFee;
         }
 
         public double getDeliveryFee()
@@ -38,9 +38,13 @@ namespace Peran_Bagian_MVC
 
         public double getPromo()
         {
-            return this.getPromo;
+            return this.promo;
         }
 
+        public void setPromo(double promo)
+        {
+            this.promo = promo;
+        }
         public void updateTotal(double subTotal)
         {
             double total = subTotal + deliveryFee - promo;

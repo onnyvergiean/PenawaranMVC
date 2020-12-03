@@ -19,7 +19,7 @@ namespace Peran_Bagian_MVC
             this.items.Add(item);
         }
 
-        public List<Item> GetItems()
+        public List<Item> getItems()
         {
             return this.items;
         }

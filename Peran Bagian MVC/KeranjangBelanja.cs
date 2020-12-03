@@ -17,7 +17,7 @@ namespace Peran_Bagian_MVC
             this.callback = callback;
         }
 
-        public List<Item> getItem()
+        public List<Item> getItems()
         {
            return this.itemBelanja;
         }

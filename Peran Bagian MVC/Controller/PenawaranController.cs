@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Media;
+using Peran_Bagian_MVC.Model;
 
-namespace Peran_Bagian_MVC
+namespace Peran_Bagian_MVC.Controller
 {
     class PenawaranController
     {

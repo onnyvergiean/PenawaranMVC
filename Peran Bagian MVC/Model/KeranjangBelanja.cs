@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Peran_Bagian_MVC
+namespace Peran_Bagian_MVC.Model
 {
     class KeranjangBelanja
     {

@@ -10,6 +10,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Peran_Bagian_MVC.Model;
+using Peran_Bagian_MVC.Controller;
 
 namespace Peran_Bagian_MVC
 {

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Peran_Bagian_MVC.Model
 {
-    class Item
+    public class Item
     {
         public string title { get; set; }
         public double price { get; set; }
